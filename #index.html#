@@ -12,15 +12,6 @@
     .w3-row-padding img {margin-bottom: 12px}
     /* Set the width of the sidebar to 120px */
     .w3-sidebar {width: 120px;background: #222;}
-    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-    #main {margin-left: 120px}
-    /* Remove margins from "page content" on small screens */
-    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
-    </style>
-  </head>
-<body class="w3-black">
-
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
   <img src="/images/avatar-2022.jpg" style="width:100%">
@@ -87,18 +78,6 @@
     <hr style="width:200px" class="w3-opacity">
 
     <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <h3><a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230110251J/abstract" target="_blank"
-      style="text-decoration: none;">Clouds of Theseus: long-lived molecular clouds are composed of short-lived H2 molecules</a></h3>
-      <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230110251J/abstract" target="_blank">
-      <img src="/images/fig-2023a.png" style="width:80%">
-      </a>
-      <div class="w3-content w3-justify w3-text-grey" id="about">
-      <p>We use passive gas tracer particles in an Arepo simulation of a dwarf spiral galaxy to relate the Lagrangian evolution of star-forming gas parcels and their H2 molecules to the evolution of their host giant molecular clouds. We find that the chemical lifetime of H2 is much shorter than the average lifetime of its host molecular cloud. Long-lived clouds are sustained by an ongoing competition between (1) the destruction of H2 by stellar feedback, and (2) the accretion of new dense gas from the galactic environment. The fastest-accreting, longest-lived, highest-mass clouds drive supernova clustering on sub-cloud scales, which in turn is a key driver of galactic outflows.
-      </p>
-      </div>
-      <br>
-
     <div class="w3-row-padding" style="margin:0 -16px">
       <h3><a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.505.3470J/abstract" target="_blank"
       style="text-decoration: none;">On the scale-height of the molecular gas disc in Milky Way-like galaxies</a></h3>
